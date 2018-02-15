@@ -54,6 +54,6 @@ class Transport extends \Zend_Mail_Transport_Smtp implements \Magento\Framework\
      * @return string
      */
     public function getMessage() {
-        return;
+        return $this->message;
     }
 }
